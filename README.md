@@ -1,6 +1,6 @@
 # DevBuild Resume
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/devbuild-resume)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/devbuild-resume) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/devbuild-resume)
 
 ## Description
 
