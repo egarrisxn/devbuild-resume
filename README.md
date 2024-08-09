@@ -11,7 +11,7 @@ DevBuild Resume is a simple resume builder web application built using Next.js, 
 ## Technologies Used
 
 - **Next.js:** A React framework for building server-side rendered applications.
-- **TailwindCSS:** A utility-first CSS framework for creating custom designs quickly.
+- **Tailwind CSS:** A utility-first CSS framework for creating custom designs quickly.
 - **Material-Tailwind:** A Material Design UI kit for TailwindCSS, providing pre-designed components.
 - **TypeScript:** A statically typed superset of JavaScript for enhanced code maintainability and scalability.
 
