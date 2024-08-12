@@ -2,7 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 
-
 const roboto = Roboto({
   subsets: ["latin"],
   weight: ["300", "400", "500", "700", "900"],
@@ -36,8 +35,10 @@ export const metadata: Metadata = {
     siteName: "DevBuild Resume!",
     type: "website",
     locale: "en_US",
-  }
+  },
 };
+
+export const revalidate = 0;
 
 export default function RootLayout({
   children,
@@ -46,9 +47,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
-        {children}
-      </body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }
