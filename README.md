@@ -4,57 +4,65 @@
 
 ## Description
 
-DevBuild Resume is a simple resume builder web application built using Next.js, TailwindCSS, Material-Tailwind, and TypeScript. It allows users to create professional resumes quickly and efficiently.
+**DevBuild Resume** is a streamlined resume builder web application built with **Next.js**, **TailwindCSS**, **Material-Tailwind**, and **TypeScript**. It empowers users to craft professional resumes quickly and efficiently, tailored for developers who value a modern, visually appealing design.
 
-![devbuildresume](https://github.com/egarrisxn/devbuild-resume/assets/126130230/01ab46e2-fb70-4339-8761-f2df6023e703)
+### 🚨 Important Notice on ATS Compatibility
+
+_Please note:_ While this resume template is designed to highlight your technical skills and experience with a clean, developer-focused layout, it may not be fully optimized for Applicant Tracking Systems (ATS). Due to the use of advanced formatting and design elements, some ATS software may have difficulty parsing the content correctly.
+
+For those seeking ATS-friendly resumes, consider simplifying the design by using standard fonts, minimal formatting, or exporting the content to a plain text or basic format that aligns with ATS requirements.
+
+![DevBuild Resume Screenshot](https://github.com/egarrisxn/devbuild-resume/assets/126130230/01ab46e2-fb70-4339-8761-f2df6023e703)
 
 ## Technologies Used
 
-- **Next.js:** A React framework for building server-side rendered applications.
-- **Tailwind CSS:** A utility-first CSS framework for creating custom designs quickly.
-- **Material-Tailwind:** A Material Design UI kit for TailwindCSS, providing pre-designed components.
-- **TypeScript:** A statically typed superset of JavaScript for enhanced code maintainability and scalability.
+- **Next.js**: A React framework for building server-side rendered applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid custom design.
+- **Material-Tailwind**: A Material Design UI kit for TailwindCSS, offering pre-designed components.
+- **TypeScript**: A statically typed superset of JavaScript, enhancing code maintainability and scalability.
 
-- ## JSON Data and Image Upload -- MAY CHANGE IN THE FUTURE.
+## JSON Data and Image Upload
 
-To maintain flexibility and ease of updating resume data, Build That Resume keeps the resume content in a seperate repository, consisting of a JSON file and an Images folder.
+_Note: This feature may change in the future._
 
-- **JSON Data:** The resume data is stored in a JSON file, allowing for easy updates without modifying the application code directly.
-- **Image Upload:** Users can upload images to include in the resume JSON file, such as an avatar image or screenshots of projects.
+DevBuild Resume maintains flexibility by storing resume data in a separate repository, utilizing a JSON file and an images folder for content management.
+
+- **JSON Data**: Resume content is stored in a JSON file, allowing for easy updates without directly altering the application code.
+- **Image Upload**: Users can upload images to the JSON file, such as avatars or project screenshots.
 
 [Repository](https://github.com/egarrisxn/devbuild-resume)
 
 ## Deployment
 
-The project is deployed on Vercel, providing seamless deployment and hosting solutions for Next.js applications.
+The project is deployed on **Vercel**, ensuring seamless deployment and hosting for Next.js applications.
 
 [Live Demo](https://devbuild-resume.vercel.app/)
 
 ## How to Run Locally
 
-1. Clone repository.
+1. Clone the repository.
 2. Install dependencies.
 3. Run the development server.
-4. Open your local host to view in browser.
+4. Open your localhost to view it in your browser.
 
 ## Usage
 
-1. Navigate to the "info" page.
-2. Follow the instructions.
-3. Create your next resume! 
+1. Navigate to the "Info" page.
+2. Follow the on-screen instructions.
+3. Create your next resume!
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit issues or pull requests.
+Contributions are welcome! Feel free to submit issues or pull requests to improve the project.
 
 ## Feedback
 
-I welcome feedback! If you have any suggestions, feature requests, or encounter any issues, please open an issue on GitHub.
+Your feedback is appreciated! If you have any suggestions, feature requests, or encounter any issues, please open an issue on GitHub.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Questions
+## Questions?
 
-Questions? Comments? Concerns? Reach out to me via [GitHub](https://github.com/EGARRISXN) or email at egarrisxn@gmail.com.
+If you have any questions, comments, or concerns, feel free to reach out via [GitHub](https://github.com/EGARRISXN) or email at egarrisxn@gmail.com.
