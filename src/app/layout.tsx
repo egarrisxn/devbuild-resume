@@ -11,30 +11,72 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   metadataBase: new URL("https://devbuild-resume.vercel.app"),
   title: "DevBuild Resume!",
-  description:
-    "DevBuild Resume is a web app that helps you build a resume in minutes.",
+  description: "A web app that helps you build a resume in minutes.",
   referrer: "origin-when-cross-origin",
   keywords: [
     "Resume, Builder, Next.js, TailwindCSS, Material-Tailwind, Typescript, React, Vercel, Ethan, Garrison, devbuild-resume, buildthatresume",
   ],
+  creator: "https://egxo.dev.",
   robots: {
     index: true,
-    follow: true,
+    follow: false,
+    nocache: true,
     googleBot: {
       index: true,
-      follow: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
       "max-image-preview": "large",
       "max-snippet": -1,
     },
   },
+  manifest: "/manifest.json",
   openGraph: {
     title: "DevBuild Resume!",
-    description:
-      "DevBuild Resume is a web app that helps you build a resume in minutes.",
+    description: "A web app that helps you build a resume in minutes.",
     url: "https://devbuild-resume.vercel.app/",
     siteName: "DevBuild Resume!",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "/opengraph-image.png",
+        width: 1200,
+        height: 630,
+        alt: "A web app that helps you build a resume in minutes.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "DevBuild Resume!",
+    description: "A web app that helps you build a resume in minutes.",
+    creator: "@eg__xo",
+    site: "@eg__xo",
+    images: [
+      {
+        url: "/twitter-image.png",
+        width: 1200,
+        height: 630,
+        alt: "A web app that helps you build a resume in minutes.",
+      },
+    ],
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+    other: [
+      {
+        rel: "apple-touch-icon-precomposed",
+        url: "/apple-touch-icon-precomposed.png",
+      },
+    ],
   },
 };
 
