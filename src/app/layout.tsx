@@ -17,20 +17,6 @@ export const metadata: Metadata = {
     "Resume, Builder, Next.js, TailwindCSS, Material-Tailwind, Typescript, React, Vercel, Ethan, Garrison, devbuild-resume, buildthatresume",
   ],
   creator: "https://egxo.dev.",
-  robots: {
-    index: true,
-    follow: false,
-    nocache: true,
-    googleBot: {
-      index: true,
-      follow: false,
-      noimageindex: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-  manifest: "/manifest.json",
   openGraph: {
     title: "DevBuild Resume!",
     description: "A web app that helps you build a resume in minutes.",
@@ -38,14 +24,6 @@ export const metadata: Metadata = {
     siteName: "DevBuild Resume!",
     type: "website",
     locale: "en_US",
-    images: [
-      {
-        url: "/opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "A web app that helps you build a resume in minutes.",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -53,22 +31,6 @@ export const metadata: Metadata = {
     description: "A web app that helps you build a resume in minutes.",
     creator: "@eg__xo",
     site: "@eg__xo",
-    images: [
-      {
-        url: "/twitter-image.png",
-        width: 1200,
-        height: 630,
-        alt: "A web app that helps you build a resume in minutes.",
-      },
-    ],
-  },
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
-      { url: "/icon.png", sizes: "96x96", type: "image/png" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
   },
 };
 
