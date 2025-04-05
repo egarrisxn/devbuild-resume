@@ -1,4 +1,6 @@
-# DevBuild Resume
+# DevBuild Resume 2024
+
+![devbuildresume](https://github.com/user-attachments/assets/17dbf147-47c5-4849-8756-175f683ce531)
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![GitHub repo size](https://img.shields.io/github/repo-size/egarrisxn/devbuild-resume) ![GitHub last commit](https://img.shields.io/github/last-commit/egarrisxn/devbuild-resume)
 
@@ -11,8 +13,6 @@
 _Please note:_ While this resume template is designed to highlight your technical skills and experience with a clean, developer-focused layout, it may not be fully optimized for Applicant Tracking Systems (ATS). Due to the use of advanced formatting and design elements, some ATS software may have difficulty parsing the content correctly.
 
 For those seeking ATS-friendly resumes, consider simplifying the design by using standard fonts, minimal formatting, or exporting the content to a plain text or basic format that aligns with ATS requirements.
-
-![DevBuild Resume Screenshot](https://github.com/egarrisxn/devbuild-resume/assets/126130230/01ab46e2-fb70-4339-8761-f2df6023e703)
 
 ## Technologies Used
 
