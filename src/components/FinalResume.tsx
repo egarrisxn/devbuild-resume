@@ -1,20 +1,20 @@
-import { Contact } from "./Resume/contact";
-import { Education } from "./Resume/education";
-import { Experience } from "./Resume/experience";
-import { Header } from "./Resume/header";
-import { Hobbies } from "./Resume/hobbies";
-import { Projects } from "./Resume/projects";
-import { Skills } from "./Resume/skills";
-import { Technologies } from "./Resume/technologies";
-import { Summary } from "./Resume/summary";
-import { getResumeAPI } from "@/libs/resumeAPI";
+import { Contact } from './Resume/contact';
+import { Education } from './Resume/education';
+import { Experience } from './Resume/experience';
+import { Header } from './Resume/header';
+import { Hobbies } from './Resume/hobbies';
+import { Projects } from './Resume/projects';
+import { Skills } from './Resume/skills';
+import { Technologies } from './Resume/technologies';
+import { Summary } from './Resume/summary';
+import { getResumeAPI } from '@/libs/resumeAPI';
 
 export default async function FinalResume() {
   const apiResumeData: Promise<ResumeData> = getResumeAPI();
   const resumeData = await apiResumeData;
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="mx-auto max-w-5xl">
       <Header propData={resumeData.heading} />
 
       <div className="grid grid-rows-1 lg:grid-cols-2">

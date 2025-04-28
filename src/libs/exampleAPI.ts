@@ -1,23 +1,24 @@
 //! Once you are finished using the example resume, you may delete this.
-
-const endpoint = process.env.NEXT_PUBLIC_RESUME_API_URL || "https://egarrisxn.github.io/resume-json/resume.json";
+const endpoint =
+  process.env.NEXT_PUBLIC_RESUME_API_URL ||
+  'https://egarrisxn.github.io/resume-json/resume.json';
 
 const fetchExampleAPI = async (endpoint: string) => {
   try {
     const cacheBuster = new Date().getTime();
-    let res = await fetch(`${endpoint}?t=${cacheBuster}`, {
-      method: "GET",
+    const res = await fetch(`${endpoint}?t=${cacheBuster}`, {
+      method: 'GET',
       headers: {
-        "Cache-Control": "no-cache",
-        "Pragma": "no-cache",
-        "Expires": "0",
-        "Content-Type": "application/json; charset=utf-8",
+        'Cache-Control': 'no-cache',
+        Pragma: 'no-cache',
+        Expires: '0',
+        'Content-Type': 'application/json; charset=utf-8'
       },
-      credentials: "same-origin",
+      credentials: 'same-origin'
     });
     return res.json();
   } catch (err) {
-    console.error("Failed to fetch data:", err);
+    console.error('Failed to fetch data:', err);
     throw err;
   }
 };

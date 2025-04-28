@@ -1,42 +1,42 @@
-import { ReactNode } from "react";
-import { Typography } from "@/components/UI/Material-Tailwind";
+import { ReactNode } from 'react';
+import { Typography } from '@/components/UI/Material-Tailwind';
 
 interface TypographyProps {
   placeholder?: string;
   variant?:
-    | "h1"
-    | "h2"
-    | "h3"
-    | "h4"
-    | "h5"
-    | "h6"
-    | "lead"
-    | "paragraph"
-    | "small";
+    | 'h1'
+    | 'h2'
+    | 'h3'
+    | 'h4'
+    | 'h5'
+    | 'h6'
+    | 'lead'
+    | 'paragraph'
+    | 'small';
   color?:
-    | "inherit"
-    | "current"
-    | "black"
-    | "white"
-    | "blue-gray"
-    | "gray"
-    | "brown"
-    | "deep-orange"
-    | "orange"
-    | "amber"
-    | "yellow"
-    | "lime"
-    | "light-green"
-    | "green"
-    | "teal"
-    | "cyan"
-    | "light-blue"
-    | "blue"
-    | "indigo"
-    | "deep-purple"
-    | "purple"
-    | "pink"
-    | "red";
+    | 'inherit'
+    | 'current'
+    | 'black'
+    | 'white'
+    | 'blue-gray'
+    | 'gray'
+    | 'brown'
+    | 'deep-orange'
+    | 'orange'
+    | 'amber'
+    | 'yellow'
+    | 'lime'
+    | 'light-green'
+    | 'green'
+    | 'teal'
+    | 'cyan'
+    | 'light-blue'
+    | 'blue'
+    | 'indigo'
+    | 'deep-purple'
+    | 'purple'
+    | 'pink'
+    | 'red';
   textGradient?: boolean;
   className?: string;
   children?: ReactNode;
@@ -48,7 +48,7 @@ const CustomTypography = ({
   color,
   textGradient,
   className,
-  children,
+  children
 }: TypographyProps) => {
   return (
     <Typography

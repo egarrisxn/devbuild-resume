@@ -1,7 +1,7 @@
-import CustomTypography from "@/components/UI/Typography";
-import CustomCard from "@/components/UI/Card";
-import CustomCardBody from "@/components/UI/CardBody";
-import { BriefcaseIcon } from "@heroicons/react/24/outline";
+import CustomTypography from '@/components/UI/Typography';
+import CustomCard from '@/components/UI/Card';
+import CustomCardBody from '@/components/UI/CardBody';
+import { BriefcaseIcon } from '@heroicons/react/24/outline';
 
 export default function ExperienceForm() {
   return (
@@ -43,7 +43,7 @@ export default function ExperienceForm() {
                 Position | Duration
               </CustomTypography>
 
-              <li className="list-disc ml-4">
+              <li className="ml-4 list-disc">
                 <CustomTypography
                   placeholder="Duty Description"
                   variant="paragraph"

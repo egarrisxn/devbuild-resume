@@ -1,7 +1,7 @@
-import CustomTypography from "@/components/UI/Typography";
-import CustomList from "@/components/UI/List";
-import CustomListItem from "@/components/UI/ListItem";
-import { FilmIcon } from "@heroicons/react/24/outline";
+import CustomTypography from '@/components/UI/Typography';
+import CustomList from '@/components/UI/List';
+import CustomListItem from '@/components/UI/ListItem';
+import { FilmIcon } from '@heroicons/react/24/outline';
 
 export default function Hobbies() {
   return (

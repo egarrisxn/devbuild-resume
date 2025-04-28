@@ -1,9 +1,9 @@
-import CustomTypography from "@/components/UI/Typography";
-import CustomAvatar from "@/components/UI/Avatar";
+import CustomTypography from '@/components/UI/Typography';
+import CustomAvatar from '@/components/UI/Avatar';
 
 export default function HeaderForm() {
   return (
-    <section className="p-2 lg:p-4 flex justify-between border rounded shadow-md">
+    <section className="flex justify-between rounded border p-2 shadow-md lg:p-4">
       <div className="flex flex-col justify-center">
         <CustomTypography
           variant="h3"
@@ -19,7 +19,7 @@ export default function HeaderForm() {
           color="blue-gray"
           textGradient
           placeholder="Header Position"
-          className="lg:text-4xl ml-1"
+          className="ml-1 lg:text-4xl"
         >
           Position
         </CustomTypography>
@@ -30,7 +30,7 @@ export default function HeaderForm() {
         placeholder="Avatar Image"
         variant="circular"
         size="xxl"
-        className="lg:w-64 lg:h-64 shadow-xl"
+        className="shadow-xl lg:h-64 lg:w-64"
       />
     </section>
   );

@@ -1,4 +1,4 @@
-import ExampleResume from "@/components/ExampleResume";
+import ExampleResume from '@/components/ExampleResume';
 
 export default function ExampleResumePage() {
   return (

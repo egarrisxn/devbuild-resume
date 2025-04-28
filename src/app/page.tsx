@@ -1,13 +1,13 @@
-import CustomTypography from "@/components/UI/Typography";
-import CustomButton from "@/components/UI/Button";
-import landingResume from "../../public/images/landing-resume.png";
-import landingTemplate from "../../public/images/landing-template.png";
-import Link from "next/link";
-import Image from "next/image";
+import CustomTypography from '@/components/UI/Typography';
+import CustomButton from '@/components/UI/Button';
+import landingResume from '../../public/images/landing-resume.png';
+import landingTemplate from '../../public/images/landing-template.png';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function ResumePage() {
   return (
-    <div className="container mx-auto items-center justify-center grid py-16 xl:py-24 2xl:py-32 px-4 sm:px-8 lg:px-4 gap-8">
+    <div className="container mx-auto grid items-center justify-center gap-8 px-4 py-16 sm:px-8 lg:px-4 xl:py-24 2xl:py-32">
       <section className="text-center">
         <CustomTypography
           variant="h1"
@@ -20,7 +20,7 @@ export default function ResumePage() {
         <CustomTypography
           variant="h3"
           color="gray"
-          className="text-lg tracking-tighter md:text-xl xl:text-2xl 2xl:text-3xl w-full max-w-[30rem] font-thin px-8 2xl:px-0 mx-auto my-2"
+          className="mx-auto my-2 w-full max-w-[30rem] px-8 text-lg font-thin tracking-tighter md:text-xl xl:text-2xl 2xl:px-0 2xl:text-3xl"
         >
           Beautifully designed resume template to help you stand out from the
           crowd.
@@ -35,12 +35,12 @@ export default function ResumePage() {
               width={765}
               height={430}
               alt="Landing Template"
-              className="border-2 shadow-lg rounded-lg transform hover:scale-105 mt-1 transition duration-200"
+              className="mt-1 transform rounded-lg border-2 shadow-lg transition duration-200 hover:scale-105"
               priority
             />
           </Link>
         </div>
-        <div className="2xl:mt-6 mb-4 2xl:mb-10">
+        <div className="mb-4 2xl:mt-6 2xl:mb-10">
           <p className="ml-1">INTO THIS..</p>
           <Link href="example-resume" target="_blank">
             <Image
@@ -48,13 +48,13 @@ export default function ResumePage() {
               width={765}
               height={430}
               alt="Landing Resume"
-              className="border-2 shadow-lg rounded-lg transform hover:scale-105 transition duration-200 mt-1"
+              className="mt-1 transform rounded-lg border-2 shadow-lg transition duration-200 hover:scale-105"
               priority
             />
           </Link>
         </div>
       </section>
-      <section className="text-center flex flex-col justify-center items-center mx-auto gap-2">
+      <section className="mx-auto flex flex-col items-center justify-center gap-2 text-center">
         <CustomTypography
           variant="h4"
           color="blue"

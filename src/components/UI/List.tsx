@@ -1,5 +1,5 @@
-import { ReactNode } from "react";
-import { List } from "@/components/UI/Material-Tailwind";
+import { ReactNode } from 'react';
+import { List } from '@/components/UI/Material-Tailwind';
 
 interface ListProps {
   placeholder?: string;

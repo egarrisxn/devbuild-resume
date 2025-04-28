@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import type {
   AvatarProps,
@@ -7,8 +7,8 @@ import type {
   CardBodyProps,
   ListProps,
   ListItemProps,
-  TypographyProps,
-} from "@material-tailwind/react";
+  TypographyProps
+} from '@material-tailwind/react';
 
 import {
   Avatar,
@@ -18,8 +18,8 @@ import {
   List,
   ListItem,
   Typography,
-  ThemeProvider,
-} from "@material-tailwind/react";
+  ThemeProvider
+} from '@material-tailwind/react';
 
 export type {
   AvatarProps,
@@ -28,7 +28,7 @@ export type {
   CardBodyProps,
   ListProps,
   ListItemProps,
-  TypographyProps,
+  TypographyProps
 };
 
 export {
@@ -39,5 +39,5 @@ export {
   List,
   ListItem,
   Typography,
-  ThemeProvider,
+  ThemeProvider
 };

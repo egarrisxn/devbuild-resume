@@ -1,8 +1,8 @@
-import CustomTypography from "@/components/UI/Typography";
-import CustomList from "@/components/UI/List";
-import CustomListItem from "@/components/UI/ListItem";
-import { ComputerDesktopIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
+import CustomTypography from '@/components/UI/Typography';
+import CustomList from '@/components/UI/List';
+import CustomListItem from '@/components/UI/ListItem';
+import { ComputerDesktopIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 export default function TechnologiesForm() {
   return (

@@ -1,7 +1,7 @@
-import CustomTypography from "@/components/UI/Typography";
-import CustomCard from "@/components/UI/Card";
-import CustomCardBody from "@/components/UI/CardBody";
-import { BriefcaseIcon } from "@heroicons/react/24/outline";
+import CustomTypography from '@/components/UI/Typography';
+import CustomCard from '@/components/UI/Card';
+import CustomCardBody from '@/components/UI/CardBody';
+import { BriefcaseIcon } from '@heroicons/react/24/outline';
 
 type ExperienceProps = {
   propData: {
@@ -58,7 +58,7 @@ export function Experience({ propData }: ExperienceProps) {
                   </CustomTypography>
 
                   {job.dutyList.map((duty: DutyList) => (
-                    <li className="list-disc ml-4" key={duty.id}>
+                    <li className="ml-4 list-disc" key={duty.id}>
                       <CustomTypography
                         placeholder="Duty Description"
                         variant="paragraph"

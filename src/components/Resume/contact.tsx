@@ -1,4 +1,4 @@
-import CustomTypography from "@/components/UI/Typography";
+import CustomTypography from '@/components/UI/Typography';
 import {
   IdentificationIcon,
   HomeIcon,
@@ -6,9 +6,9 @@ import {
   PhoneIcon,
   MapPinIcon,
   GlobeAltIcon,
-  BookOpenIcon,
-} from "@heroicons/react/24/outline";
-import Link from "next/link";
+  BookOpenIcon
+} from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 type ContactProps = {
   propData: {
@@ -22,19 +22,19 @@ export function Contact({ propData }: ContactProps) {
 
   const iconFinder = (icon: string) => {
     switch (icon) {
-      case "Email":
+      case 'Email':
         return <EnvelopeIcon className="h-4 w-4" aria-label="Email icon" />;
-      case "Location":
+      case 'Location':
         return <MapPinIcon className="h-4 w-4" aria-label="Location icon" />;
-      case "Phone":
+      case 'Phone':
         return <PhoneIcon className="h-4 w-4" aria-label="Phone icon" />;
-      case "Website":
+      case 'Website':
         return <HomeIcon className="h-4 w-4" aria-label="Website icon" />;
-      case "Blog":
+      case 'Blog':
         return <BookOpenIcon className="h-4 w-4" aria-label="Blog icon" />;
-      case "Linkedin":
+      case 'Linkedin':
         return <GlobeAltIcon className="h-4 w-4" aria-label="LinkedIn icon" />;
-      case "Github":
+      case 'Github':
         return <GlobeAltIcon className="h-4 w-4" aria-label="GitHub icon" />;
       default:
         return null;
@@ -43,7 +43,7 @@ export function Contact({ propData }: ContactProps) {
 
   return (
     <section className="m-2 p-2 lg:m-4 lg:p-4">
-      <header className="flex items-center gap-1 border-b-2 mb-3">
+      <header className="mb-3 flex items-center gap-1 border-b-2">
         <IdentificationIcon
           className="h-8 w-8 text-yellow-800"
           aria-label="Contact icon"
@@ -61,7 +61,7 @@ export function Contact({ propData }: ContactProps) {
       <ul className="ml-3">
         {contactList.map((item) => (
           <li className="flex items-center gap-1" key={item.id}>
-            {iconFinder(item.icon ? item.icon : "")}
+            {iconFinder(item.icon ? item.icon : '')}
 
             <CustomTypography
               placeholder="Contact Items"

@@ -1,31 +1,31 @@
-import { ReactNode } from "react";
-import { Button } from "@/components/UI/Material-Tailwind";
+import { ReactNode } from 'react';
+import { Button } from '@/components/UI/Material-Tailwind';
 
 interface ButtonProps {
-  variant?: "filled" | "outlined" | "gradient" | "text";
-  size?: "sm" | "md" | "lg";
+  variant?: 'filled' | 'outlined' | 'gradient' | 'text';
+  size?: 'sm' | 'md' | 'lg';
   color?:
-    | "white"
-    | "black"
-    | "blue-gray"
-    | "gray"
-    | "brown"
-    | "deep-orange"
-    | "orange"
-    | "amber"
-    | "yellow"
-    | "lime"
-    | "light-green"
-    | "green"
-    | "teal"
-    | "cyan"
-    | "light-blue"
-    | "blue"
-    | "indigo"
-    | "deep-purple"
-    | "purple"
-    | "pink"
-    | "red";
+    | 'white'
+    | 'black'
+    | 'blue-gray'
+    | 'gray'
+    | 'brown'
+    | 'deep-orange'
+    | 'orange'
+    | 'amber'
+    | 'yellow'
+    | 'lime'
+    | 'light-green'
+    | 'green'
+    | 'teal'
+    | 'cyan'
+    | 'light-blue'
+    | 'blue'
+    | 'indigo'
+    | 'deep-purple'
+    | 'purple'
+    | 'pink'
+    | 'red';
   ripple?: boolean;
   placeholder?: string;
   className?: string;
@@ -39,7 +39,7 @@ const CustomButton = ({
   ripple,
   placeholder,
   className,
-  children,
+  children
 }: ButtonProps) => {
   return (
     <Button

@@ -1,5 +1,5 @@
-"use client";
-import { useEffect, ReactNode } from "react";
+'use client';
+import { useEffect, ReactNode } from 'react';
 
 interface ErrorProps {
   error: Error | null;
@@ -14,12 +14,12 @@ const Error = ({ error, reset }: ErrorProps) => {
   }, [error]);
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <p className="text-2xl font-semibold pt-2">Something went wrong!</p>
+    <div className="flex min-h-screen flex-col items-center justify-center">
+      <p className="pt-2 text-2xl font-semibold">Something went wrong!</p>
       <br />
       <button
         onClick={reset}
-        className="px-8 bg-blue-500 border-2 rounded-lg shadow-lg"
+        className="rounded-lg border-2 bg-blue-500 px-8 shadow-lg"
       >
         Refresh
       </button>

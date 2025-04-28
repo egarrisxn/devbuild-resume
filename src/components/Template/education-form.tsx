@@ -1,8 +1,8 @@
-import CustomTypography from "@/components/UI/Typography";
-import CustomCard from "@/components/UI/Card";
-import CustomCardBody from "@/components/UI/CardBody";
-import { AcademicCapIcon } from "@heroicons/react/24/outline";
-import Link from "next/link";
+import CustomTypography from '@/components/UI/Typography';
+import CustomCard from '@/components/UI/Card';
+import CustomCardBody from '@/components/UI/CardBody';
+import { AcademicCapIcon } from '@heroicons/react/24/outline';
+import Link from 'next/link';
 
 export default function EducationForm() {
   return (
