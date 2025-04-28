@@ -7,11 +7,11 @@ import { Projects } from './Resume/projects';
 import { Skills } from './Resume/skills';
 import { Technologies } from './Resume/technologies';
 import { Summary } from './Resume/summary';
-import { getResumeAPI } from '@/libs/resumeAPI';
+import { getFinalResumeAPI } from '@/libs/finalResumeAPI';
 
 export default async function FinalResume() {
-  const fetchedData: { resumeData: ResumeData } = await getResumeAPI();
-  const resumeData = fetchedData.resumeData;
+  const fetchedData = await getFinalResumeAPI();
+  const resumeData: ResumeData = fetchedData;
 
   return (
     <div className="mx-auto max-w-5xl">

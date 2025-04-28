@@ -44,14 +44,14 @@ type ResumeData = {
 interface ContactList {
   id: string;
   icon?: string;
-  href?: url;
+  href?: string;
   value: Array<string>;
 }
 
 interface ProjectList {
   id: string;
   name?: string;
-  href?: url;
+  href?: string;
   hreftitle?: string;
   desc?: string;
   value: Array<string>;
@@ -67,7 +67,7 @@ interface SkillList {
 interface TechnologiesList {
   id: string;
   name?: string;
-  href?: url;
+  href?: string;
   desc?: string;
   value: Array<string>;
 }
@@ -76,7 +76,7 @@ interface EducationList {
   id: string;
   name?: string;
   location?: string;
-  href?: url;
+  href?: string;
   degree?: string;
   duration?: string;
   desc?: string;

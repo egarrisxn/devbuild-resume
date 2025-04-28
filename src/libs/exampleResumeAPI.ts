@@ -1,4 +1,4 @@
-//! This is where your endpoint will go, once you have created one.
+//! Once you are finished using the example resume, you may delete this.
 
 import exampleData from '../../public/data/example.json';
 
@@ -6,7 +6,9 @@ const remoteEndpoint =
   process.env.NEXT_PUBLIC_RESUME_API_URL ||
   'https://egarrisxn.github.io/resume-json/resume.json';
 
-export async function getResumeAPI(): Promise<{ resumeData: ResumeData }> {
+export async function getExampleResumeAPI(): Promise<{
+  resumeData: ResumeData;
+}> {
   if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA === 'true') {
     console.log('Using local example data');
     return { resumeData: exampleData as ResumeData };

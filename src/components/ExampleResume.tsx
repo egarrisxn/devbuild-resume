@@ -7,10 +7,10 @@ import { Projects } from './Resume/projects';
 import { Skills } from './Resume/skills';
 import { Technologies } from './Resume/technologies';
 import { Summary } from './Resume/summary';
-import { getExampleAPI } from '@/libs/exampleAPI';
+import { getExampleResumeAPI } from '@/libs/exampleResumeAPI';
 
 export default async function ExampleResume() {
-  const fetchedData: { resumeData: ResumeData } = await getExampleAPI();
+  const fetchedData: { resumeData: ResumeData } = await getExampleResumeAPI();
   const resumeData = fetchedData.resumeData;
 
   return (
