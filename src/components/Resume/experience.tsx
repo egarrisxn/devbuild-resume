@@ -5,7 +5,7 @@ import { BriefcaseIcon } from '@heroicons/react/24/outline';
 
 type ExperienceProps = {
   propData: {
-    title: string;
+    title?: string;
     experienceList: Array<ExperienceList>;
   };
 };
@@ -16,7 +16,7 @@ export function Experience({ propData }: ExperienceProps) {
     <section className="m-2 p-2 lg:m-4 lg:p-4">
       <header className="flex items-center gap-1 border-b-2">
         <BriefcaseIcon
-          className="h-8 w-8 text-yellow-800"
+          className="size-8 text-yellow-800"
           aria-label="Experience Icon"
         />
 

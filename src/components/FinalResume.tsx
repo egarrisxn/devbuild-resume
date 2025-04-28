@@ -10,8 +10,8 @@ import { Summary } from './Resume/summary';
 import { getResumeAPI } from '@/libs/resumeAPI';
 
 export default async function FinalResume() {
-  const apiResumeData: Promise<ResumeData> = getResumeAPI();
-  const resumeData = await apiResumeData;
+  const fetchedData: { resumeData: ResumeData } = await getResumeAPI();
+  const resumeData = fetchedData.resumeData;
 
   return (
     <div className="mx-auto max-w-5xl">

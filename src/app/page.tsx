@@ -1,9 +1,9 @@
+import Link from 'next/link';
+import Image from 'next/image';
 import CustomTypography from '@/components/UI/Typography';
 import CustomButton from '@/components/UI/Button';
 import landingResume from '../../public/images/landing-resume.png';
 import landingTemplate from '../../public/images/landing-template.png';
-import Link from 'next/link';
-import Image from 'next/image';
 
 export default function ResumePage() {
   return (
@@ -63,7 +63,7 @@ export default function ResumePage() {
         >
           What are you waiting for?
         </CustomTypography>
-        <Link href="/info-page" target="_blank">
+        <Link href="/docs" target="_blank">
           <CustomButton
             variant="gradient"
             color="blue-gray"

@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, ReactNode } from 'react';
+import { useEffect } from 'react';
 
 interface ErrorProps {
   error: Error | null;

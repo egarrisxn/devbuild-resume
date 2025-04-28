@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 type ContactProps = {
   propData: {
-    title: string;
+    title?: string;
     contactList: Array<ContactList>;
   };
 };
@@ -23,19 +23,19 @@ export function Contact({ propData }: ContactProps) {
   const iconFinder = (icon: string) => {
     switch (icon) {
       case 'Email':
-        return <EnvelopeIcon className="h-4 w-4" aria-label="Email icon" />;
+        return <EnvelopeIcon className="size-4" aria-label="Email icon" />;
       case 'Location':
-        return <MapPinIcon className="h-4 w-4" aria-label="Location icon" />;
+        return <MapPinIcon className="size-4" aria-label="Location icon" />;
       case 'Phone':
-        return <PhoneIcon className="h-4 w-4" aria-label="Phone icon" />;
+        return <PhoneIcon className="size-4" aria-label="Phone icon" />;
       case 'Website':
-        return <HomeIcon className="h-4 w-4" aria-label="Website icon" />;
+        return <HomeIcon className="size-4" aria-label="Website icon" />;
       case 'Blog':
-        return <BookOpenIcon className="h-4 w-4" aria-label="Blog icon" />;
+        return <BookOpenIcon className="size-4" aria-label="Blog icon" />;
       case 'Linkedin':
-        return <GlobeAltIcon className="h-4 w-4" aria-label="LinkedIn icon" />;
+        return <GlobeAltIcon className="size-4" aria-label="LinkedIn icon" />;
       case 'Github':
-        return <GlobeAltIcon className="h-4 w-4" aria-label="GitHub icon" />;
+        return <GlobeAltIcon className="size-4" aria-label="GitHub icon" />;
       default:
         return null;
     }
@@ -45,7 +45,7 @@ export function Contact({ propData }: ContactProps) {
     <section className="m-2 p-2 lg:m-4 lg:p-4">
       <header className="mb-3 flex items-center gap-1 border-b-2">
         <IdentificationIcon
-          className="h-8 w-8 text-yellow-800"
+          className="size-8 text-yellow-800"
           aria-label="Contact icon"
         />
         <CustomTypography

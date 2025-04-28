@@ -5,7 +5,7 @@ import { FilmIcon } from '@heroicons/react/24/outline';
 
 type HobbyProps = {
   propData: {
-    title: string;
+    title?: string;
     hobbyList: Array<HobbyList>;
   };
 };
@@ -17,7 +17,7 @@ export function Hobbies({ propData }: HobbyProps) {
     <section className="m-2 p-2 lg:m-4 lg:p-4">
       <header className="flex items-center gap-1 border-b-2">
         <FilmIcon
-          className="h-8 w-8 text-yellow-800"
+          className="size-8 text-yellow-800"
           aria-label="Hobbies Icon"
         />
         <CustomTypography

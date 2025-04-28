@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 type TechnologiesProps = {
   propData: {
-    title: string;
+    title?: string;
     technologiesList: Array<TechnologiesList>;
   };
 };
@@ -18,7 +18,7 @@ export function Technologies({ propData }: TechnologiesProps) {
     <section className="m-2 p-2 lg:m-4 lg:p-4">
       <header className="flex items-center gap-1 border-b-2">
         <ComputerDesktopIcon
-          className="h-8 w-8 text-yellow-800"
+          className="size-8 text-yellow-800"
           aria-label="Technologies Icon"
         />
         <CustomTypography

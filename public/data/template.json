@@ -16,37 +16,43 @@
         {
           "id": "info_01",
           "icon": "Email",
-          "href": "mailto:your-email@example.com",
+          "href": "#",
           "value": "Email"
         },
         {
           "id": "info_02",
           "icon": "Location",
-          "href": "https://www.google.com/maps/place/Your+Location",
+          "href": "#",
           "value": "Location"
         },
         {
           "id": "info_03",
           "icon": "Phone",
-          "href": "tel:+1234567890",
+          "href": "#",
           "value": "Phone"
         },
         {
           "id": "info_04",
           "icon": "Website",
-          "href": "https://www.yourwebsite.com/",
+          "href": "#",
           "value": "Website"
         },
         {
           "id": "info_05",
-          "icon": "LinkedIn",
-          "href": "https://www.linkedin.com/in/your-profile/",
-          "value": "LinkedIn"
+          "icon": "Blog",
+          "href": "#",
+          "value": "Website"
         },
         {
           "id": "info_06",
+          "icon": "LinkedIn",
+          "href": "#",
+          "value": "LinkedIn"
+        },
+        {
+          "id": "info_07",
           "icon": "GitHub",
-          "href": "https://www.github.com/your-github/",
+          "href": "#",
           "value": "GitHub"
         }
       ]

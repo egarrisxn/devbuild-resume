@@ -1,27 +1,24 @@
 //! This is where your endpoint will go, once you have created one.
-const endpoint = 'https://egarrisxn.github.io/resume-json/resume.json';
 
-const fetchResumeAPI = async (endpoint: string) => {
-  try {
-    const cacheBuster = new Date().getTime();
-    const res = await fetch(`${endpoint}?t=${cacheBuster}`, {
-      method: 'GET',
-      headers: {
-        'Cache-Control': 'no-cache',
-        Pragma: 'no-cache',
-        Expires: '0',
-        'Content-Type': 'application/json; charset=utf-8'
-      },
-      credentials: 'same-origin'
-    });
-    return res.json();
-  } catch (err) {
-    console.error('Failed to fetch data:', err);
-    throw err;
+import exampleData from '../../public/data/example.json';
+
+const remoteEndpoint =
+  process.env.NEXT_PUBLIC_RESUME_API_URL ||
+  'https://egarrisxn.github.io/resume-json/resume.json';
+
+export async function getResumeAPI(): Promise<{ resumeData: ResumeData }> {
+  if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA === 'true') {
+    console.log('Using local example data');
+    return { resumeData: exampleData as ResumeData };
+  } else {
+    console.log('Fetching example data from:', remoteEndpoint);
+    try {
+      const res = await fetch(remoteEndpoint);
+      const data = await res.json();
+      return data;
+    } catch (error) {
+      console.error('Failed to fetch example resume data:', error);
+      throw error;
+    }
   }
-};
-
-export const getResumeAPI = async () => {
-  const data = await fetchResumeAPI(endpoint);
-  return data.resumeData;
-};
+}

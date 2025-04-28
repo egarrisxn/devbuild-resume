@@ -1,14 +1,15 @@
+import Link from 'next/link';
+import { WindowIcon } from '@heroicons/react/24/outline';
 import CustomTypography from '@/components/UI/Typography';
 import CustomCard from '@/components/UI/Card';
 import CustomCardBody from '@/components/UI/CardBody';
-import { WindowIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
+
 export default function ProjectsForm() {
   return (
     <section className="m-2 p-2 lg:m-4 lg:p-4">
       <header className="flex items-center gap-1 border-b-2">
         <WindowIcon
-          className="h-8 w-8 text-yellow-800"
+          className="size-8 text-yellow-800"
           aria-label="Projects Icon"
         />
 

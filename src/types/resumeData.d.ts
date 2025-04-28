@@ -1,112 +1,112 @@
 type ResumeData = {
   heading: {
     title?: string;
-    name: string;
-    position: string;
+    name?: string;
+    position?: string;
     avatar: string;
   };
   summary: {
-    title: string;
-    desc: string;
+    title?: string;
+    desc?: string;
   };
   contact: {
-    title: string;
+    title?: string;
     contactList: Array<ContactList>;
   };
   experience: {
-    title: string;
+    title?: string;
     experienceList: Array<ExperienceList>;
     detailList: Array<DetailList>;
     dutyList: Array<DutyList>;
   };
   projects: {
-    title: string;
+    title?: string;
     projectList: Array<ProjectList>;
   };
   skills: {
-    title: string;
+    title?: string;
     skillList: Array<SkillList>;
   };
   technologies: {
-    title: string;
+    title?: string;
     technologiesList: Array<TechnologiesList>;
   };
   education: {
-    title: string;
+    title?: string;
     educationList: Array<EducationList>;
   };
   hobbies: {
-    title: string;
+    title?: string;
     hobbyList: Array<HobbyList>;
   };
 };
 
 interface ContactList {
   id: string;
-  icon: string;
-  href: string;
+  icon?: string;
+  href?: url;
   value: Array<string>;
 }
 
 interface ProjectList {
   id: string;
-  name: string;
-  href: string;
-  hrefTitle: string;
-  desc: string;
+  name?: string;
+  href?: url;
+  hreftitle?: string;
+  desc?: string;
   value: Array<string>;
 }
 
 interface SkillList {
   id: string;
-  name: string;
+  name?: string;
   desc?: string;
   value: Array<string>;
 }
 
 interface TechnologiesList {
   id: string;
-  name: string;
-  href: string;
+  name?: string;
+  href?: url;
   desc?: string;
   value: Array<string>;
 }
 
 interface EducationList {
   id: string;
-  name: string;
-  location: string;
-  href: string;
-  degree: string;
-  duration: string;
+  name?: string;
+  location?: string;
+  href?: url;
+  degree?: string;
+  duration?: string;
   desc?: string;
   value: Array<string>;
 }
 
 interface HobbyList {
   id: string;
-  name: string;
+  name?: string;
   desc?: string;
   value: Array<string>;
 }
 
 interface ExperienceList {
   id: string;
-  name: string;
-  location: string;
+  name?: string;
+  location?: string;
   detailList: Array<DetailList>;
   dutyList: Array<DutyList>;
 }
 
 interface DetailList {
   id: string;
-  position: string;
-  duration: string;
+  position?: string;
+  duration?: string;
   dutyList: Array<DutyList>;
 }
 
 interface DutyList {
   id: string;
-  desc: string;
+  desc?: string;
   value: Array<string>;
 }
