@@ -1,8 +1,7 @@
+import { ComputerDesktopIcon } from '@heroicons/react/24/outline';
 import CustomTypography from '@/components/UI/Typography';
 import CustomList from '@/components/UI/List';
 import CustomListItem from '@/components/UI/ListItem';
-import { ComputerDesktopIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
 
 type TechnologiesProps = {
   propData: {
@@ -45,9 +44,9 @@ export function Technologies({ propData }: TechnologiesProps) {
               textGradient
               className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4"
             >
-              <Link href={item.href} target="_blank">
+              <a href={item.href} target="_blank">
                 {item.name}
-              </Link>
+              </a>
             </CustomTypography>
           </CustomListItem>
         ))}

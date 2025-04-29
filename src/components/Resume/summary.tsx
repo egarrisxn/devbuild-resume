@@ -1,5 +1,5 @@
-import CustomTypography from '@/components/UI/Typography';
 import { PencilSquareIcon } from '@heroicons/react/24/outline';
+import CustomTypography from '@/components/UI/Typography';
 
 type SummaryProps = {
   propData: {

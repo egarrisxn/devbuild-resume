@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { WindowIcon } from '@heroicons/react/24/outline';
 import CustomTypography from '@/components/UI/Typography';
 import CustomCard from '@/components/UI/Card';
@@ -39,9 +38,9 @@ export default function ProjectsForm() {
               variant="h6"
               className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4"
             >
-              <Link href="#" target="_blank">
+              <a href="#" target="_blank">
                 Value
-              </Link>
+              </a>
             </CustomTypography>
 
             <CustomTypography

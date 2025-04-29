@@ -1,8 +1,7 @@
+import { AcademicCapIcon } from '@heroicons/react/24/outline';
 import CustomTypography from '@/components/UI/Typography';
 import CustomCard from '@/components/UI/Card';
 import CustomCardBody from '@/components/UI/CardBody';
-import { AcademicCapIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
 
 type EducationProps = {
   propData: {
@@ -48,9 +47,9 @@ export function Education({ propData }: EducationProps) {
                 variant="h6"
                 className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4"
               >
-                <Link href={item.href} target="_blank">
+                <a href={item.href} target="_blank">
                   {item.name}
-                </Link>
+                </a>
               </CustomTypography>
 
               <CustomTypography

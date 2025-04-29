@@ -70,7 +70,7 @@ export default function ResumePage() {
             ripple={true}
             className="px-8 py-1.5 md:px-10 md:py-2 xl:px-12 xl:py-2.5 2xl:px-14 2xl:py-3 2xl:text-sm"
           >
-            BEGIN
+            LET US BEGIN!
           </CustomButton>
         </Link>
       </section>

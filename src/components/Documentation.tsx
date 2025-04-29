@@ -132,14 +132,14 @@ export default function Documentation() {
           <ol className="mb-4 list-decimal space-y-3 pl-6 text-gray-700 dark:text-gray-300">
             <li>
               <strong>Create a GitHub Repository:</strong> Go to{' '}
-              <Link
+              <a
                 href="https://github.com/new"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-blue-600 hover:text-blue-500 hover:underline dark:text-blue-500 hover:dark:text-blue-400"
               >
                 GitHub <Github className="ml-1 size-4" />
-              </Link>{' '}
+              </a>{' '}
               and create a new public repository to store your resume data.
             </li>
             <li>
@@ -338,14 +338,14 @@ export default function Documentation() {
           </div>
           <p className="mt-12 text-sm text-gray-700 dark:text-gray-300">
             For more information or support, please refer to the{' '}
-            <Link
+            <a
               href="https://github.com/egarrisxn/devbuild-resume"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-blue-600 hover:text-blue-500 hover:underline dark:text-blue-500 hover:dark:text-blue-400"
             >
               GitHub repository
-            </Link>
+            </a>
             .
           </p>
         </footer>

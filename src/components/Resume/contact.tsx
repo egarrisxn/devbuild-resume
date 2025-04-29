@@ -1,4 +1,3 @@
-import CustomTypography from '@/components/UI/Typography';
 import {
   IdentificationIcon,
   HomeIcon,
@@ -8,7 +7,7 @@ import {
   GlobeAltIcon,
   BookOpenIcon
 } from '@heroicons/react/24/outline';
-import Link from 'next/link';
+import CustomTypography from '@/components/UI/Typography';
 
 type ContactProps = {
   propData: {
@@ -68,9 +67,9 @@ export function Contact({ propData }: ContactProps) {
               variant="paragraph"
               className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4 xl:my-0.5"
             >
-              <Link href={item.href} target="_blank">
+              <a href={item.href} target="_blank">
                 {item.value}
-              </Link>
+              </a>
             </CustomTypography>
           </li>
         ))}

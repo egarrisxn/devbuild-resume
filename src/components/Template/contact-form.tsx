@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import {
   IdentificationIcon,
   HomeIcon,
@@ -30,7 +29,7 @@ export default function ContactForm() {
 
       <ul className="ml-2">
         <li className="flex items-center gap-1">
-          <Link href="#" target="_blank">
+          <a href="#" target="_blank">
             <CustomTypography
               placeholder="Contact Items"
               variant="paragraph"
@@ -94,7 +93,7 @@ export default function ContactForm() {
                 </span>
               </span>
             </CustomTypography>
-          </Link>
+          </a>
         </li>
       </ul>
     </section>

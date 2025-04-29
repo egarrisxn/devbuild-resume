@@ -1,7 +1,7 @@
+import { BriefcaseIcon } from '@heroicons/react/24/outline';
 import CustomTypography from '@/components/UI/Typography';
 import CustomCard from '@/components/UI/Card';
 import CustomCardBody from '@/components/UI/CardBody';
-import { BriefcaseIcon } from '@heroicons/react/24/outline';
 
 type ExperienceProps = {
   propData: {

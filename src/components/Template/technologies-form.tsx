@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { ComputerDesktopIcon } from '@heroicons/react/24/outline';
 import CustomTypography from '@/components/UI/Typography';
 import CustomList from '@/components/UI/List';
@@ -31,9 +30,9 @@ export default function TechnologiesForm() {
             textGradient
             className="text-blue-400 hover:text-blue-600 hover:underline hover:underline-offset-4"
           >
-            <Link href="#" target="_blank">
+            <a href="#" target="_blank">
               Item Name
-            </Link>
+            </a>
           </CustomTypography>
         </CustomListItem>
       </CustomList>
