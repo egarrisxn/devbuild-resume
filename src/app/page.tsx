@@ -29,7 +29,7 @@ export default function ResumePage() {
       <section className="grid grid-cols-1 gap-8 font-semibold text-blue-900">
         <div className="mb-6 2xl:mt-4">
           <p className="ml-1">TURN THIS..</p>
-          <Link href="resume-template" target="_blank">
+          <Link href="/template" target="_blank">
             <Image
               src={landingTemplate}
               width={765}
@@ -42,7 +42,7 @@ export default function ResumePage() {
         </div>
         <div className="mb-4 2xl:mt-6 2xl:mb-10">
           <p className="ml-1">INTO THIS..</p>
-          <Link href="example-resume" target="_blank">
+          <Link href="/resume" target="_blank">
             <Image
               src={landingResume}
               width={765}

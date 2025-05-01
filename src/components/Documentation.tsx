@@ -80,7 +80,7 @@ export default function Documentation() {
             <ul className="mb-2 list-disc space-y-3 pl-6">
               <li>
                 <Link
-                  href="/resume-template"
+                  href="/template"
                   target="_blank"
                   className="inline-flex items-center text-blue-600 hover:text-blue-500 hover:underline dark:text-blue-500 hover:dark:text-blue-400"
                 >
@@ -99,7 +99,7 @@ export default function Documentation() {
               </li>
               <li>
                 <Link
-                  href="/example-resume"
+                  href="/resume"
                   target="_blank"
                   className="inline-flex items-center text-blue-600 hover:text-blue-500 hover:underline dark:text-blue-500 hover:dark:text-blue-400"
                 >
