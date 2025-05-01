@@ -2,8 +2,6 @@
 @import 'tw-animate-css';
 @config '../../tailwind.config.ts';
 
-@custom-variant dark (&:is(.dark *));
-
 @layer base {
   *,
   ::after,
