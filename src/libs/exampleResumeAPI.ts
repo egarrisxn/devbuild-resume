@@ -4,7 +4,7 @@ import exampleData from '../../public/data/example.json';
 
 const endpoint =
   process.env.NEXT_PUBLIC_RESUME_API_URL ||
-  'https://egarrisxn.github.io/resume-json/resume.json';
+  'https://egarrisxn.github.io/resume-json/example-resume.json';
 
 export async function getExampleResumeAPI(): Promise<ResumeData> {
   if (process.env.NEXT_PUBLIC_USE_LOCAL_DATA === 'true') {

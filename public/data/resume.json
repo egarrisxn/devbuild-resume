@@ -1,0 +1,532 @@
+{
+  "heading": {
+    "title": "",
+    "name": "Ethan Garrison",
+    "position": "Full-Stack Developer",
+    "avatar": "https://egarrisxn.github.io/resume-json/images/avatar.png"
+  },
+  "summary": {
+    "title": "Summary",
+    "desc": "Versatile Full-Stack Developer with a strong foundation in management, now focused on front-end development and server-side programming. Proficient in creating responsive and accessible user interfaces, managing databases, and integrating APIs. Skilled in Agile methodologies and optimization, delivering scalable web solutions aligned with user needs and client objectives."
+  },
+  "contact": {
+    "title": "Contact",
+    "contactList": [
+      {
+        "id": "info_01",
+        "icon": "Email",
+        "href": "mailto:egarrisxn@gmail.com",
+        "value": ["Egarrisxn@gmail.com"]
+      },
+      {
+        "id": "info_02",
+        "icon": "Location",
+        "href": "https://www.google.com/maps/place/Orlando,+FL",
+        "value": ["Orlando, Fl"]
+      },
+      {
+        "id": "info_03",
+        "icon": "Phone",
+        "href": "tel:+15802844513",
+        "value": ["580.284.4513"]
+      },
+      {
+        "id": "info_04",
+        "icon": "Website",
+        "href": "https://egxo.dev",
+        "value": ["https://egxo.dev"]
+      },
+      {
+        "id": "info_05",
+        "icon": "Blog",
+        "href": "https://egxo.fyi",
+        "value": ["https://egxo.fyi"]
+      },
+      {
+        "id": "info_06",
+        "icon": "Linkedin",
+        "href": "https://linkedin.com/in/ethan-gx",
+        "value": ["Linkedin.com/in/ethan-gx"]
+      },
+      {
+        "id": "info_07",
+        "icon": "Github",
+        "href": "https://github.com/egarrisxn",
+        "value": ["Github.com/egarrisxn"]
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "experienceList": [
+      {
+        "id": "freelance_01",
+        "name": "Freelance",
+        "location": "Orlando, FL",
+        "detailList": [
+          {
+            "id": "freelance_01_01",
+            "position": "Full-Stack Web Developer",
+            "duration": "2023 - Present",
+            "dutyList": [
+              {
+                "id": "freelance_01_01_01",
+                "desc": "Develop and deploy high-quality applications using modern frameworks like React, Tailwind CSS, and Node.js.",
+                "value": [
+                  "Develop and deploy high-quality applications using modern frameworks like React, Tailwind CSS, and Node.js."
+                ]
+              },
+              {
+                "id": "freelance_01_01_02",
+                "desc": "Implement responsive, accessible design principles for exceptional user experience and standards compliance.",
+                "value": [
+                  "Implement responsive, accessible design principles for exceptional user experience and standards compliance."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "roughtail_01",
+        "name": "Roughtail Brewing Company",
+        "location": "Oklahoma City, OK",
+        "detailList": [
+          {
+            "id": "roughtail_01_01",
+            "position": "Regional Account Manager",
+            "duration": "2021 - 2023",
+            "dutyList": [
+              {
+                "id": "roughtail_01_01_01",
+                "desc": "Resolved escalations and nurtured distributor relationships to strengthen business partnerships",
+                "value": [
+                  "Resolved escalations and nurtured distributor relationships to strengthen business partnerships"
+                ]
+              },
+              {
+                "id": "roughtail_01_01_02",
+                "desc": "Delivered a 20% increase in regional sales by implementing data-driven marketing strategies.",
+                "value": [
+                  "Delivered a 20% increase in regional sales by implementing data-driven marketing strategies."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "armadillo_01",
+        "name": "Armadillo Ale Works",
+        "location": "Denton, TX",
+        "detailList": [
+          {
+            "id": "armadillo_01_01",
+            "position": "Account Manager",
+            "duration": "2019 - 2021",
+            "dutyList": [
+              {
+                "id": "armadillo_01_01_01",
+                "desc": "Expanded market reach, achieving a 25% sales growth through strategic partnerships and innovative campaigns.",
+                "value": [
+                  "Expanded market reach, achieving a 25% sales growth through strategic partnerships and innovative campaigns."
+                ]
+              },
+              {
+                "id": "armadillo_01_01_02",
+                "desc": "Facilitated collaboration across sales, production, and marketing teams to streamline operations.",
+                "value": [
+                  "Facilitated collaboration across sales, production, and marketing teams to streamline operations."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "northside_01",
+        "name": "Northside Drafthouse & Eatery",
+        "location": "Richardson, TX",
+        "detailList": [
+          {
+            "id": "northside_01_01",
+            "position": "Assistant General Manager",
+            "duration": "2017 - 2019",
+            "dutyList": [
+              {
+                "id": "northside_01_01_01",
+                "desc": "Streamlined operations and reduced costs while maintaining exceptional service standards.",
+                "value": [
+                  "Streamlined operations and reduced costs while maintaining exceptional service standards."
+                ]
+              },
+              {
+                "id": "northside_01_01_02",
+                "desc": "Supervised a team of 15+ employees, fostering a culture of excellence and continuous improvement.",
+                "value": [
+                  "Supervised a team of 15+ employees, fostering a culture of excellence and continuous improvement."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fullclip_01",
+        "name": "Fullclip Craft Distributors",
+        "location": "Dallas, TX",
+        "detailList": [
+          {
+            "id": "fullclip_01_01",
+            "position": "Sales Manager",
+            "duration": "2014 - 2017",
+            "dutyList": [
+              {
+                "id": "fullclip_01_01_01",
+                "desc": "Cultivated long-term client relationships by resolving inquiries efficiently and providing tailored solutions.",
+                "value": [
+                  "Cultivated long-term client relationships by resolving inquiries efficiently and providing tailored solutions."
+                ]
+              },
+              {
+                "id": "fullclip_01_01_02",
+                "desc": "Proactively educated clients on new products, leading to a higher satisfaction and retention rate.",
+                "value": [
+                  "Proactively educated clients on new products, leading to a higher satisfaction and retention rate."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "projectList": [
+      {
+        "id": "project_01",
+        "name": "Quik|Res",
+        "href": "https://quikres.vercel.app",
+        "value": ["quikres.vercel.app"],
+        "desc": " Developed an AI-powered resume-to-website generator for creating polished personal sites with ease."
+      },
+      {
+        "id": "project_02",
+        "name": "ManyLinks",
+        "href": "https://manylinks.vercel.app",
+        "value": ["manylinks.vercel.app"],
+        "desc": "Designed a sleek, single-page link aggregator to showcase all your important links in one place."
+      },
+      {
+        "id": "project_03",
+        "name": "Sway Bae Official",
+        "href": "https://www.swaybae.net",
+        "value": ["swaybae.net"],
+        "desc": "Built a professional website optimized for SEO and integrated with a headless CMS to enhance content management."
+      },
+      {
+        "id": "project_04",
+        "name": "Unofficial Merchandise",
+        "href": "https://unofficialmerchandise.vercel.app",
+        "value": ["unofficialmerchandise.vercel.app"],
+        "desc": "Created a modern e-commerce site with a user-centric design, enhancing user experience and driving sales potential."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "skillList": [
+      {
+        "id": "skill_01",
+        "name": "Project Management",
+        "desc": "",
+        "value": ["Project Management"]
+      },
+      {
+        "id": "skill_02",
+        "name": "Front-End Framework Development",
+        "desc": "",
+        "value": ["Front-End Framework Development"]
+      },
+      {
+        "id": "skill_03",
+        "name": "UX/UI Accessible & Responsive Design",
+        "desc": "",
+        "value": ["UX/UI Accessible & Responsive Design"]
+      },
+      {
+        "id": "skill_04",
+        "name": "Web Performance Optimization",
+        "desc": "",
+        "value": ["Web Performance Optimization"]
+      },
+      {
+        "id": "skill_05",
+        "name": "Search Engine Optimization (SEO)",
+        "desc": "",
+        "value": ["Search Engine Optimization (SEO)"]
+      },
+      {
+        "id": "skill_06",
+        "name": "API Design, Implementation & Integration",
+        "desc": "",
+        "value": ["API Design, Implementation & Integration"]
+      },
+      {
+        "id": "skill_07",
+        "name": "Server Management, Hosting & Deployment",
+        "desc": "",
+        "value": ["Server Management, Hosting & Deployment"]
+      },
+      {
+        "id": "skill_08",
+        "name": "Agile Methodologies",
+        "desc": "",
+        "value": ["Agile Methodologies"]
+      },
+      {
+        "id": "skill_09",
+        "name": "Database Design & Management",
+        "desc": "",
+        "value": ["Database Design & Management"]
+      },
+      {
+        "id": "skill_10",
+        "name": "Object-Oriented Programming (OOP)",
+        "desc": "",
+        "value": ["Object-Oriented Programming (OOP)"]
+      },
+      {
+        "id": "skill_11",
+        "name": "Continuous Integration & Deployment (CI/CD)",
+        "desc": "",
+        "value": ["Continuous Integration & Deployment (CI/CD)"]
+      },
+      {
+        "id": "skill_12",
+        "name": "Authentication & Authorization",
+        "desc": "",
+        "value": ["Authentication & Authorization"]
+      },
+      {
+        "id": "skill_13",
+        "name": "Version Control (Git/GitHub)",
+        "desc": "",
+        "value": ["Version Control (Git/GitHub)"]
+      },
+      {
+        "id": "skill_14",
+        "name": "Security Best Practices",
+        "desc": "",
+        "value": ["Security Best Practices"]
+      }
+    ]
+  },
+  "technologies": {
+    "title": "Technologies",
+    "technologiesList": [
+      {
+        "id": "technologies_01",
+        "name": "JavaScript",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "desc": "",
+        "value": ["JavaScript"]
+      },
+      {
+        "id": "technologies_02",
+        "name": "Typescript",
+        "href": "https://www.typescriptlang.org/",
+        "desc": "",
+        "value": ["Typescript"]
+      },
+      {
+        "id": "technologies_03",
+        "name": "React",
+        "href": "https://www.reactjs.org/",
+        "desc": "",
+        "value": ["React"]
+      },
+      {
+        "id": "technologies_04",
+        "name": "Next.js",
+        "href": "https://www.nextjs.org/",
+        "desc": "",
+        "value": ["Next.js"]
+      },
+      {
+        "id": "technologies_05",
+        "name": "GitHub",
+        "href": "https://www.github.com/",
+        "desc": "",
+        "value": ["GitHub"]
+      },
+      {
+        "id": "technologies_06",
+        "name": "Git",
+        "href": "https://www.git-scm.com/",
+        "desc": "",
+        "value": ["Git"]
+      },
+      {
+        "id": "technologies_07",
+        "name": "PNPM",
+        "href": "https://pnpm.io/",
+        "desc": "",
+        "value": ["PNPM"]
+      },
+      {
+        "id": "technologies_08",
+        "name": "NPM",
+        "href": "https://www.npmjs.com/",
+        "desc": "",
+        "value": ["NPM"]
+      },
+      {
+        "id": "technologies_09",
+        "name": "Webpack",
+        "href": "https://nextjs.org/docs/app/api-reference/turbopack",
+        "desc": "",
+        "value": ["Turbopack"]
+      },
+      {
+        "id": "technologies_10",
+        "name": "Vite",
+        "href": "https://vitejs.dev/",
+        "desc": "",
+        "value": ["Vite"]
+      },
+      {
+        "id": "technologies_11",
+        "name": "ESLint",
+        "href": "https://eslint.org/",
+        "desc": "",
+        "value": ["ESLint"]
+      },
+      {
+        "id": "technologies_12",
+        "name": "MDX",
+        "href": "https://mdxjs.com/",
+        "desc": "",
+        "value": ["MDX"]
+      },
+      {
+        "id": "technologies_13",
+        "name": "Node.js",
+        "href": "https://www.nodejs.org/",
+        "desc": "",
+        "value": ["Node.js"]
+      },
+      {
+        "id": "technologies_14",
+        "name": "Supabase",
+        "href": "https://www.supabase.com/",
+        "desc": "",
+        "value": ["Supabase"]
+      },
+      {
+        "id": "technologies_15",
+        "name": "Express.js",
+        "href": "https://www.expressjs.com/",
+        "desc": "",
+        "value": ["Express.js"]
+      },
+      {
+        "id": "technologies_16",
+        "name": "MongoDB",
+        "href": "https://www.mongodb.com/",
+        "desc": "",
+        "value": ["MongoDB"]
+      },
+      {
+        "id": "technologies_17",
+        "name": "PostgreSQL",
+        "href": "https://www.postgresql.org/",
+        "desc": "",
+        "value": ["PostgreSQL"]
+      },
+      {
+        "id": "technologies_18",
+        "name": "Sanity",
+        "href": "https://www.sanity.io/",
+        "desc": "",
+        "value": ["Sanity"]
+      },
+      {
+        "id": "technologies_19",
+        "name": "TailwindCSS",
+        "href": "https://www.tailwindcss.com/",
+        "desc": "",
+        "value": ["TailwindCSS"]
+      },
+      {
+        "id": "technologies_20",
+        "name": "Vercel",
+        "href": "https://www.vercel.com/",
+        "desc": "",
+        "value": ["Vercel"]
+      },
+      {
+        "id": "technologies_21",
+        "name": "Canva",
+        "href": "https://www.canva.com/",
+        "desc": "",
+        "value": ["Canva"]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "educationList": [
+      {
+        "id": "education_01",
+        "name": "University of Central Florida",
+        "location": "Florida",
+        "href": "https://www.ucf.edu/",
+        "degree": "Full-Stack Coding Bootcamp Certificate",
+        "duration": "2023",
+        "desc": "",
+        "value": ["Full-Stack Coding Bootcamp Certificate"]
+      },
+      {
+        "id": "education_02",
+        "name": "University of Central Oklahoma",
+        "location": "Oklahoma",
+        "href": "https://www.uco.edu/",
+        "degree": "NA - Business Management",
+        "duration": "2008",
+        "desc": "",
+        "value": ["NA - Business Management"]
+      }
+    ]
+  },
+  "hobbies": {
+    "title": "Hobbies",
+    "hobbyList": [
+      {
+        "id": "hobby_01",
+        "name": "Contributing to open-source projects",
+        "desc": "",
+        "value": ["Contributing to open-source projects"]
+      },
+      {
+        "id": "hobby_02",
+        "name": "Participating in coding challenges",
+        "desc": "",
+        "value": ["Participating in coding challenges"]
+      },
+      {
+        "id": "hobby_03",
+        "name": "Tech blogging and discussion groups",
+        "desc": "",
+        "value": ["Tech blogging and discussion groups"]
+      },
+      {
+        "id": "hobby_04",
+        "name": "Exploring the latest technologies",
+        "desc": "",
+        "value": ["Exploring the latest technologies"]
+      }
+    ]
+  }
+}
