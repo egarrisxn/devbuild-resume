@@ -59,6 +59,8 @@ const CustomTypography = ({
       className={className}
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
+      onResize={undefined}
+      onResizeCapture={undefined}
     >
       {children}
     </Typography>

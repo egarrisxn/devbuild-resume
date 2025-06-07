@@ -27,6 +27,8 @@ const CustomListItem = ({
       className={className}
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
+      onResize={undefined}
+      onResizeCapture={undefined}
     >
       {children}
     </ListItem>
