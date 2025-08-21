@@ -6,17 +6,6 @@
   "author": "Ethan G",
   "license": "MIT",
   "private": true,
-  "keywords": [
-    "typescript",
-    "next",
-    "nextjs",
-    "react",
-    "tailwind",
-    "tailwindcss",
-    "material-tailwind",
-    "eslint",
-    "vercel"
-  ],
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "prebuild": "pnpm run lint",
@@ -24,7 +13,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "next-lint": "next lint",
     "format": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache",
     "format:fix": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache"
   },

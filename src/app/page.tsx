@@ -40,7 +40,7 @@ export default function ResumePage() {
             />
           </Link>
         </div>
-        <div className="mb-4 2xl:mt-6 2xl:mb-10">
+        <div className="mb-4 2xl:mb-10 2xl:mt-6">
           <p className="ml-1">INTO THIS..</p>
           <Link href="/resume" target="_blank">
             <Image

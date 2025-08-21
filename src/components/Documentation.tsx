@@ -18,7 +18,7 @@ export default function Documentation() {
           </CustomTypography>
           <CustomTypography
             variant="h2"
-            className="mt-2 text-lg text-gray-800 lg:text-xl dark:text-gray-200"
+            className="mt-2 text-lg text-gray-800 dark:text-gray-200 lg:text-xl"
           >
             Learn how to use DevBuild Resume to create your perfect developer
             resume.
@@ -47,17 +47,17 @@ export default function Documentation() {
         <section className="mb-8">
           <CustomTypography
             variant="h2"
-            className="mb-2 text-2xl font-semibold text-gray-900 lg:text-3xl dark:text-gray-100"
+            className="mb-2 text-2xl font-semibold text-gray-900 dark:text-gray-100 lg:text-3xl"
           >
             Getting Started
           </CustomTypography>
           <CustomTypography
             variant="h3"
-            className="mb-2 text-lg font-semibold text-gray-800 lg:text-xl dark:text-gray-200"
+            className="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200 lg:text-xl"
           >
             Prerequisites
           </CustomTypography>
-          <ul className="mb-4 list-disc space-y-2 pl-6 text-sm text-gray-700 lg:text-base dark:text-gray-300">
+          <ul className="mb-4 list-disc space-y-2 pl-6 text-sm text-gray-700 dark:text-gray-300 lg:text-base">
             <li>A GitHub account (for hosting your resume data).</li>
             <li>Basic understanding of JSON data structure.</li>
             <li>A web browser.</li>
@@ -65,7 +65,7 @@ export default function Documentation() {
 
           <CustomTypography
             variant="h3"
-            className="mb-2 text-lg font-semibold text-gray-800 lg:text-xl dark:text-gray-200"
+            className="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200 lg:text-xl"
           >
             Understanding `template.json` and `example.json`
           </CustomTypography>
@@ -125,7 +125,7 @@ export default function Documentation() {
 
           <CustomTypography
             variant="h3"
-            className="mb-2 text-lg font-semibold text-gray-800 lg:text-xl dark:text-gray-200"
+            className="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200 lg:text-xl"
           >
             Setting Up Your Resume Data
           </CustomTypography>
@@ -207,7 +207,7 @@ export default function Documentation() {
 
           <CustomTypography
             variant="h3"
-            className="mb-2 text-lg font-semibold text-gray-800 lg:text-xl dark:text-gray-200"
+            className="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200 lg:text-xl"
           >
             Deploying Your Data with GitHub Pages
           </CustomTypography>
@@ -234,7 +234,7 @@ export default function Documentation() {
 
           <CustomTypography
             variant="h3"
-            className="mb-2 text-lg font-semibold text-gray-800 lg:text-xl dark:text-gray-200"
+            className="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200 lg:text-xl"
           >
             Updating the Data Endpoint
           </CustomTypography>
@@ -270,7 +270,7 @@ export default function Documentation() {
 
           <CustomTypography
             variant="h3"
-            className="mb-2 text-lg font-semibold text-gray-800 lg:text-xl dark:text-gray-200"
+            className="mb-2 text-lg font-semibold text-gray-800 dark:text-gray-200 lg:text-xl"
           >
             Local Development Note
           </CustomTypography>
@@ -291,7 +291,7 @@ export default function Documentation() {
 
           <CustomTypography
             variant="h2"
-            className="mb-2 text-2xl font-semibold text-gray-900 lg:text-3xl dark:text-gray-100"
+            className="mb-2 text-2xl font-semibold text-gray-900 dark:text-gray-100 lg:text-3xl"
           >
             ATS Compatibility Considerations
           </CustomTypography>
