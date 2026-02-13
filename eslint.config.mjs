@@ -13,6 +13,7 @@ const eslintConfig = [
   ...compat.config({
     extends: ['next/core-web-vitals', 'next/typescript', 'prettier'],
     rules: {
+      '@typescript-eslint/triple-slash-reference': 'off',
       '@typescript-eslint/no-require-imports': 'off',
       'react/no-find-dom-node': 'off'
       // 'react/no-unescaped-entities': 'off'
