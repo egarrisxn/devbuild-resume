@@ -16,11 +16,22 @@ const eslintConfig = [
       '@typescript-eslint/triple-slash-reference': 'off',
       '@typescript-eslint/no-require-imports': 'off',
       'react/no-find-dom-node': 'off'
-      // 'react/no-unescaped-entities': 'off'
     }
   }),
   {
-    ignores: ['**/node_modules/', '.git/', '.vscode/', '.next/', 'public/']
+    ignores: [
+    '.next/**',
+    '.git/**',
+    '.vscode/**',
+    '.vercel/**',
+    'coverage/**',
+    'node_modules/**',
+    'dist/**',
+    'public/**',
+    'out/**',
+    'build/**',
+    'next-env.d.ts',
+    '**/node_modules/',]
   }
 ];
 
